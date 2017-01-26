@@ -88,6 +88,12 @@ make db-up
 make ao-up
 ```
 
+1. Launch GraphiQL
+
+```shell
+make ao-iql
+```
+
 1. Launch the UI
 
 ```shell

@@ -35,6 +35,9 @@ ao-update:                ## Refresh charts recipes
 ao-open:                  ## Launch the ui in a browser
 	@minikube service ao-ui
 
+ao-iql:                   ## Launch graphiql
+	@open `minikube service ao-svc --url`/graphiql
+
 # --------------------------------------------------------
 # Db Tasks
 db-up:                    ## Launch the database
