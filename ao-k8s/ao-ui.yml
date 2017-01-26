@@ -1,0 +1,24 @@
+global:
+  group: ao
+
+ao-svc:
+  image:
+    repository: ao-svc
+    tag:        latest
+    pullPolicy: Never
+  service:
+    name:         ao-svc
+    type:         NodePort
+    externalPort: 30401
+    internalPort: 4000
+
+image:
+  repository: ao-ui
+  tag:        latest
+  pullPolicy: Never
+service:
+  name:         ao-ui
+  type:         NodePort
+  externalPort: 30402
+  internalPort: 80
+

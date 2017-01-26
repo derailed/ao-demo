@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  ao-db:
+  - apiVersion: v1
+    created: 2017-01-26T13:06:45.884224798-07:00
+    description: AO Database
+    digest: 0b0ae754e5652c1a074c585b701ec29bee10f30060c6ab687b117fad2a795b29
+    name: ao-db
+    urls:
+    - http://127.0.0.1:8879/ao-db-0.1.0.tgz
+    version: 0.1.0
+  ao-ui:
+  - apiVersion: v1
+    created: 2017-01-26T13:06:45.884491539-07:00
+    description: AO UI
+    digest: b7f14b2df95b5b8dc0e6d9f8784aa453070d92b022bb545bfd1222872456605b
+    name: ao-ui
+    urls:
+    - http://127.0.0.1:8879/ao-ui-0.1.0.tgz
+    version: 0.1.0
+generated: 2017-01-26T13:06:45.883792277-07:00

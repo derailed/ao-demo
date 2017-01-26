@@ -1,0 +1,11 @@
+<div class="row player">
+  <div class="col s8 pinfo">
+    <img src='assets/flags/{{ player.country }}.png' class='flag'/>
+    <div class="details">
+      {{ player.name }} [{{ player.ranking.rank }}]
+    </div>
+  </div>
+  <div class="col s4 pscore">
+    {{ formatScores() }}
+  </div>
+</div>

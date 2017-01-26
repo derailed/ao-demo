@@ -1,0 +1,42 @@
+div.player {
+  margin:  0px;
+  padding: 0px;
+}
+
+div.pinfo {
+  margin:  0;
+  padding: 0;
+}
+
+div.pscore {
+  margin:      0;
+  padding:     0;
+  padding-top: 5px;
+  text-align:  right;
+}
+
+div.details {
+  position:     relative;
+  padding-top:  5px;
+  padding-left: 15px;
+}
+
+span.blank {
+  position:     relative;
+  margin:       0;
+  padding:      0;
+  margin-right: 5px;
+  float:        left;
+  height:       32px;
+  width:        32px;
+}
+
+img.flag {
+  position:     relative;
+  margin:       0;
+  padding:      0;
+  margin-right: 5px;
+  float:        left;
+  height:       32px;
+  width:        32px;
+}

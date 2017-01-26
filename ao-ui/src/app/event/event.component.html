@@ -1,0 +1,9 @@
+<div *ngIf="!loading && event">
+  <div *ngFor="let draw of event.draws">
+    <ao-draw class="col s4" [draw]=draw></ao-draw>
+  </div>
+</div>
+
+<div class="loader" *ngIf="loading">
+  <ao-loader></ao-loader>
+</div>

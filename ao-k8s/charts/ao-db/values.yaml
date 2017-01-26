@@ -1,0 +1,10 @@
+image:
+  repository: postgres
+  tag:        9.2-alpine
+  pullPolicy: IfNotPresent
+service:
+  name:         db
+  group:        ao
+  type:         NodePort
+  externalPort: 30400
+  internalPort: 5432

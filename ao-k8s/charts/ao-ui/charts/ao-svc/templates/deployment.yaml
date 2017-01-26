@@ -1,0 +1,33 @@
+kind:       Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: {{ .Values.service.name  }}
+  labels:
+    group: {{ .Values.global.group }}
+    app:   {{ .Values.service.name  }}
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        group: {{ .Values.global.group }}
+        app:   {{ .Values.service.name }}
+    spec:
+      containers:
+        - name:  {{ .Values.service.name }}
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          env:
+            - name:  PG_USER
+              valueFrom:
+                secretKeyRef:
+                  name: ao-creds
+                  key:  pg_user
+            - name:  PG_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: ao-creds
+                  key:  pg_pwd
+          ports:
+            - containerPort: {{ .Values.service.internalPort }}
+              name:          client

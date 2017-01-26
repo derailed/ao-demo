@@ -1,0 +1,10 @@
+{
+  "/graphql": {
+    "target": "http://192.168.99.100:30401",
+    "secure": false
+  },
+  "/graphiql": {
+    "target": "http://192.168.99.100:30401",
+    "secure": false
+  }
+}

@@ -1,0 +1,8 @@
+<div class="row">
+  <h4> {{ humanRound() }} </h4>
+  <div class="col s11 {{classForRound()}}">
+    <div *ngFor="let match of draw.matches">
+      <ao-match [match]=match></ao-match>
+    </div>
+  </div>
+</div>
