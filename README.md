@@ -1,6 +1,6 @@
 # Australian Open GraphQL Demo Application
 
-<img src="https://github.com/derailed/ao-demo/assets/ao.png" width="400">
+<img src="/assets/ao.png" width="400">
 
 ## Motivation
 
@@ -13,6 +13,7 @@ following pieces orcherstrated via Kubernetes:
 * [ao-svc] an elixir GraphQL service
 * [ao-db] a postgres database
 
+The associated presentation slides [GraphQL The New Black?]()
 ## Requirements
 
 * [Kubernetes CLI](kubernetes.io)
@@ -95,6 +96,10 @@ make ao-open
 ```shell
 make nuke
 ```
+
+## Acknowledgments
+
+Please feel free to drop us a line. If you've have comments or better ways to proceed we're all hears!
 
 ## Credits
 
