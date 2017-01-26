@@ -13,7 +13,10 @@ following pieces orcherstrated via Kubernetes:
 * [ao-svc] an elixir GraphQL service
 * [ao-db] a postgres database
 
-The associated presentation slides [GraphQL The New Black?]()
+## Presentation slides
+
+[GraphQL The New Black?](http://www.slideshare.net/derailed/graphql-the-new-black-71435296)
+
 ## Requirements
 
 * [Kubernetes CLI](kubernetes.io)
@@ -97,7 +100,7 @@ make ao-open
 make nuke
 ```
 
-## Acknowledgments
+## Comments?
 
 Please feel free to drop us a line. If you've have comments or better ways to proceed we're all hears!
 
@@ -105,7 +108,7 @@ Please feel free to drop us a line. If you've have comments or better ways to pr
 
 Thanks to the [Apollo team](http://www.apollodata.com/) for making client side GraphQL management a breeze.
 
-Also big thanks to our good friends [Bruce Willams](http://absinthe-graphql.org/) and Ben Wilson for once
+Also big thanks to our good friends [Bruce Willams + Ben Wilson](http://absinthe-graphql.org/) for once
 again dropping some good stuff on us via [Absinthe](http://absinthe-graphql.org/)
 
 ## License
